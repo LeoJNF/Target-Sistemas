@@ -17,7 +17,7 @@ for z in info:
         else:
             if menor > z['valor']: #se a variavel 'menor' for maior que o valor lido, este valor lido se torna o menor
                 menor = z['valor']
-            if maior < z['valor']: #se a variavel 'maior' for menor que o valor lido, este valor lido se torna o menor
+            if maior < z['valor']: #se a variavel 'maior' for menor que o valor lido, este valor lido se torna o maior
                 maior = z['valor']
 
 print(f"Maior Faturamento = {maior:.2f} \nMenor Faturamento = {menor:.2f}") #Imprimindo Maior e menor valor
